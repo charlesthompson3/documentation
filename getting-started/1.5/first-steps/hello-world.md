@@ -58,25 +58,22 @@ In this step, you create a zero-value message that contains a "Hello world" mess
 
     ```js
     const message = JSON.stringify({"message": "Hello world"});
-    const messageInTrytes = Converter.asciiToTrytes(message);
     ```
-
+    
 5. Define a message that sends the message to the address
 
     ```js
-    const transfers = [
-    {
+    const transfers = [{
         value: 0,
         address: address,
         message: messageInTrytes
-    }
-    ];
+    }];
     ```
-
+    
 6. Send your message to the node
 
     ```js
-   Iota.prepareTransfers(seed, transfers)
+   Iota.createPrepareTransfers()(seed, transfers)
         .then(trytes => {
             return iota.sendTrytes(trytes, depth, minimumWeightMagnitude);
         })

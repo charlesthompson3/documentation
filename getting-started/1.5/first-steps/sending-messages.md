@@ -46,7 +46,7 @@ Each option for PoW has its advantages and disadvantages.
 |**Option**|**Advantages**|**Disadvantages**|
 |:-------|:---------|:------------|
 |Remote PoW| You can avoid using the computational power needed to do PoW on your own device|Depending on how powerful the node is and how many requests it receives, it may time out and not complete the PoW |
-|Local PoW|You aren't reliant on nodes to do PoW|Your device may not be powerful enough to complete PoW in a satisfactory amount of time|
+|Local PoW|You aren't reliant on nodes to do PoW|Your device may not be powerful enough to complete PoW in a satisfactory amount of time so your message has a smaller chance to be included|
 |Outsourced PoW|PoW is usually done faster more more reliably than remote or local PoW|It costs money to set up or use the service|
 
 ## Sending the messages to a node

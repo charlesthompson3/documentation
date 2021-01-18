@@ -72,9 +72,9 @@ npm install @iota/core @iota/converter
 If everything went well, you should see something like the following in the output. You can ignore any 'npm WARN' messages.
 
 ```shell
-+ @iota/core@1.0.0-beta.8
-added 19 packages from 10 contributors and audited 68 packages in 5.307s
-found 0 vulnerabilities
++ @iota/core@1.0.0-beta.30
++ @iota/converter@1.0.0-beta.30
+added 25 packages from 16 contributors and audited 26 packages in 10.091s
 ```
 
 After installing a package, you'll have a `node_modules` directory, which contains the `core` package code and its dependencies.
